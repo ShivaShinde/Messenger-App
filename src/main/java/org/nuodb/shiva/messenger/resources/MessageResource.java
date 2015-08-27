@@ -2,6 +2,7 @@ package org.nuodb.shiva.messenger.resources;
 
 
 import java.util.List;
+import java.lang.*;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
@@ -15,6 +16,7 @@ import javax.ws.rs.core.MediaType;
 
 import org.nuodb.shiva.messenger.model.Message;
 import org.nuodb.shiva.messenger.service.MessageService;
+
 
 @Path("/messages")
 
